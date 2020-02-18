@@ -1,0 +1,34 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+
+<div class="card table-container">
+  <a href="/instructors/create">Novo</a>
+  <table width="100%">
+    <thead> {# head da table #}
+      <tr> {# cada linha na tabela é uma tr #}
+        <th>Instructor</th> {# coluna da tabela no thead #}
+        <th>Atendimento</th>
+        <th>Ação</th>
+      </tr>
+    </thead>
+
+    <tbody>
+        {% for instructor in instructors %}
+          <tr>
+            <td>
+              <span style="background-image: url({{instructor.avatar_url}})"></span>
+              {{instructor.name}}
+            </td> {# coluna da tabela no tbody #}
+            <td>{{instructor.services}}</td>
+            <td><a href="/instructors/{{instructor.id}}">ver</a></td>
+          </tr>
+        {% endfor %}
+    </tbody>
+
+  </table>
+</div>
+
+
+{% endblock content %}
+
