@@ -25,7 +25,7 @@ A gym website
 
 ### :arrow_forward: How to run
 
-No terminal:
+Inside the terminal:
 <p>$ git clone https://github.com/Jurfest/gym-website-launchbase.git</p>
 <p>$ cd desafio-foodfy-launchbase</p>
 <p>$ yarn init -y</p>
@@ -35,7 +35,7 @@ No terminal:
 <p>$ yarn start</p> <!-- testar melhor jeito pois script não configurado -->
 
 
-No browser:
+Inside the browser:
 <p>http://localhost:5000</p>
 
 ### Thats it ! :wave:
