@@ -27,7 +27,7 @@ A gym website
 
 Inside the terminal:
 <p>$ git clone https://github.com/Jurfest/gym-website-launchbase.git</p>
-<p>$ cd desafio-foodfy-launchbase</p>
+<p>$ cd gym-website-launchbase</p>
 <p>$ yarn init -y</p>
 <p>$ yarn add express</p>
 <p>$ yarn add nodemon -D</p>
