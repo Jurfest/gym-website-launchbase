@@ -32,6 +32,7 @@ Inside the terminal:
 <p>$ yarn add express</p>
 <p>$ yarn add nodemon -D</p>
 <p>$ yarn add nunjucks</p>
+<p>$ yarn add method-override</p> 
 <p>$ yarn start</p> <!-- testar melhor jeito pois script não configurado -->
 
 
