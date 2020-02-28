@@ -9,6 +9,7 @@
       <tr> {# cada linha na tabela é uma tr #}
         <th>Instructor</th> {# coluna da tabela no thead #}
         <th>Atendimento</th>
+        <th>Alunos</th>
         <th>Ação</th>
       </tr>
     </thead>
@@ -21,6 +22,7 @@
               {{instructor.name}}
             </td> {# coluna da tabela no tbody #}
             <td>{{instructor.services}}</td>
+            <td>{{instructor.total_students}}</td>
             <td><a href="/instructors/{{instructor.id}}">ver</a></td>
           </tr>
         {% endfor %}
